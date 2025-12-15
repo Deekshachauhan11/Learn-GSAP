@@ -48,7 +48,7 @@ let tl = gsap.timeline({
     scroller:"body",
     // markers:true,
     start:"top 50%",
-    end:"top -60%",
+    end:"top -75%",
     scrub:2,
    }
 });
