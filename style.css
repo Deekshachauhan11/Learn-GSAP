@@ -1,201 +1,202 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
-  html,
-  body {
-    height: 100%;
-    width: 100%;
-  }
-  .section1 {
-    height: 100%;
-    width: 100%;
-    position: relative;
-  }
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 80px;
-  }
-  nav h1 {
-    font-weight: 700;
-    font-size: 36px;
-  }
-  nav h1 i {
-    rotate: 45deg;
-    display: inline-block;
-  }
-  nav .part2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-  }
-  nav .part2 h4 {
-    font-weight: 400;
-    font-size: 18px;
-  }
-  .part2 button {
-    padding: 12px 20px;
-    border-radius: 8px;
-    border: 2px solid black;
-    font-size: 18px;
-    background: transparent;
-    font-weight: 600;
-  }
-  .center {
-    padding: 80px 80px 40px 80px;
-    height: 80%;
-    width: 100%;
-    display: flex;
-  }
-  .center-part1 {
-    height: 100%;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  .center-part1 h1 {
-    font-size: 4.8rem;
-    font-weight: 500;
-    line-height: 1.2;
-  }
-  .center-part1 p {
-    font-size: 1.2rem;
-    line-height: 1.4;
-    width: 95%;
-  }
-  .center-part1 button {
-    background-color: black;
-    border-radius: 10px;
-    padding: 18px 30px;
-    width: fit-content;
-    color: #fff;
-    font-size: 1rem;
-    border: none;
-    font-weight: 600;
-  }
-  .center-part2 {
-    height: 100%;
-    width: 60%;
-    position: relative;
-   
-  }
-  .center-part2 img {
-    height: 100%;
-    position: absolute;
-    right: 0;
-  }
-  
-  .section1bottom {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 80px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+.section1 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 80px;
+}
+nav h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+nav h1 i {
+  rotate: 45deg;
+  display: inline-block;
+}
+nav .part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+nav .part2 h4 {
+  font-weight: 400;
+  font-size: 18px;
+}
+.part2 button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 2px solid black;
+  font-size: 16px;
+  background: transparent;
+  font-weight: 600;
+}
+.center {
+  padding: 80px 80px 0px 80px;
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+.center-part1 {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.center-part1 h1 {
+  font-size: 4.2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.center-part1 p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  width: 95%;
+}
+.center-part1 button {
+  background-color: black;
+  border-radius: 10px;
+  padding: 16px 24px;
+  width: fit-content;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  font-weight: 600;
+}
+.center-part2 {
+  height: 100%;
+  width: 50%;
+  position: relative;
+}
+.center-part2 img {
+  height: 80%;
+  position: absolute;
+  right: 0;
+}
 
-  }
-  
-  .section1bottom img {
-    height: 60px;
-    line-height: 1;
-  }
-  #hub {
-    height: 170px;
-  }
-  .section2 {
-    padding: 6rem 4rem;
-  }
-  .section2 .services{
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      padding: 7rem 2rem 4rem 2rem;
-  }
-  .section2 .services h3{
-    background-color:#8ff156;
-    font-size: 2.4rem;
-    padding: 0.4rem;
-    font-weight: 500;
-  }
-  .section2 .services p{
-    width: 50%;
-  }
-  .container{
-    height: 86%;
-    width: 100%;
-    padding: 40px 50px;
-    display: flex;
-    gap: 2rem;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  .elem
-  {
-    height: 350px;
-    width: 48%;
-    flex-shrink: 0;
-    border-radius: 50px;
-    border: 3px solid black;
-    box-shadow: 0px 13px 0px black;
-    padding: 60px;
-    display: flex;
-  }
-  .elem-part1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-  }
-  .elem-part1 h2{
-    font-size: 40px;
-    font-weight: 500;
-    background-color: #8ff156;
-    width: 90%;
-    border-radius: 5px;
-    padding: 0 10px;
-  }
-  .elem-part1 h4{
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 20px;
-    font-weight: 500;
-  }
-  .elem-part1 i{
-    padding: 0.4rem;
-    background-color: black;
-    color: white;
-    border-radius: 50%;
-    font-size: 2rem;
-   font-weight: 100;
-  }
+.section1bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+}
 
-  .elem-part2{
-    height: 100%;
-    width: 50%;
-  }
-  .elem-part2 img{
-    height: 100%;
-  }
-  .black{
-    background-color: black;
-  }
-  .line1 h4{
-     color: white;
-  }
-  .line1 .elem-part1 i{
-    padding: 0.4rem;
-    background-color: white;
-    color: black;
-    border-radius: 50%;
-    font-size: 2rem;
-   font-weight: 100;
-  }
-  .line1 .elem-part1 h2{
-    background-color: white;
-  }
+.section1bottom img {
+  height: 60px;
+  line-height: 1;
+  margin-top: -6rem;
+}
+#hub {
+  height: 170px;
+}
+.section2 {
+  padding: 4rem 4rem;
+}
+.section2 .services {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 2rem 4rem 2rem;
+}
+.section2 .services h3 {
+  background-color: #8ff156;
+  font-size: 2.4rem;
+  padding: 0.4rem;
+  font-weight: 500;
+}
+.section2 .services p {
+  width: 50%;
+}
+.container {
+  min-height: 86vh;
+  width: 100%;
+  padding: 40px 50px;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.elem {
+  height: 350px;
+  width: 48%;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 3px solid black;
+  box-shadow: 0px 13px 0px black;
+  padding: 60px;
+  display: flex;
+}
+.elem-part1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.elem-part1 h2 {
+  font-size: 40px;
+  font-weight: 500;
+  background-color: #8ff156;
+  width: 90%;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.elem-part1 h4 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+.elem-part1 i {
+  padding: 0.4rem;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.elem-part2 {
+  height: 100%;
+  width: 50%;
+}
+.elem-part2 img {
+  height: 100%;
+}
+.black {
+  background-color: black;
+}
+.line1 h4 {
+  color: white;
+}
+.line1 .elem-part1 i {
+  padding: 0.4rem;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.line1 .elem-part1 h2 {
+  background-color: white;
+}
